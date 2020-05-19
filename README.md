@@ -4,3 +4,7 @@
 fundBalanceCalculatorWithGooey.py
 
 -- 卖出一部分基金后计算基金余额
+
+howMuchShareShouldISell.py
+
+-- 把想卖的基金金额转换成想卖的份额

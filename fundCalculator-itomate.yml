@@ -1,0 +1,15 @@
+version: "1.0"
+tabs:
+  zronghui-xxxt:
+    title: "zronghui-xxxt"
+    panes:
+        #  左：卖出一部分基金后计算基金余额
+      - position: "1/1"
+        commands:
+          - "cd ~/01Code/private/singleFileScripts"
+          - "python fundBalanceCalculatorWithGooey.py"
+        # 右：把想卖的基金金额转换成想卖的份额
+      - position: "2/1"
+        commands:
+          - "cd ~/01Code/private/singleFileScripts"
+          - "python howMuchShareShouldISell.py"

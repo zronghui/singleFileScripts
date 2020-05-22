@@ -8,3 +8,7 @@ fundBalanceCalculatorWithGooey.py
 howMuchShareShouldISell.py
 
 -- 把想卖的基金金额转换成想卖的份额
+
+pbcopy
+
+-- 服务器拷贝到剪贴板

@@ -12,3 +12,7 @@ howMuchShareShouldISell.py
 pbcopy
 
 -- 服务器拷贝到剪贴板
+
+HowMuchIsTheCheapestToBuy.py
+
+-- 计算买多少最便宜

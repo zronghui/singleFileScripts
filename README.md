@@ -1,5 +1,16 @@
 # singleFileScripts
 自己写的一些单文件脚本
+
+
+
+依赖安装
+
+```shell
+pip3 install -r requirements.txt
+```
+
+
+
 ## 基金相关
 fundBalanceCalculatorWithGooey.py
 
@@ -8,6 +19,10 @@ fundBalanceCalculatorWithGooey.py
 howMuchShareShouldISell.py
 
 -- 把想卖的基金金额转换成想卖的份额
+
+
+
+## 其他
 
 pbcopy
 

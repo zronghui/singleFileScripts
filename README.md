@@ -9,6 +9,16 @@
 pip3 install -r requirements.txt
 ```
 
+## 北邮
+
+### buptBathReserve.py
+
+会自动检查 cookie 和失败重试，cookie 失效或者抢到 之后会发送邮件通知
+
+```shell
+*/10 * * * * cd /root/code/singleFileScripts && $python buptBathReserve.py
+```
+
 
 
 ## 京东

@@ -162,3 +162,5 @@ Temporary Items
 jd*.sh
 
 
+/config.py
+/bathCookie.txt

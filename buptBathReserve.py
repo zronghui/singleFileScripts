@@ -53,7 +53,7 @@ def main():
     else:
         # 不在 8 点，检查 cookie 是否有效
         r = bathroomSubmit(data)
-        if not successReserveTomorrow(r):
+        if r.status_code != 200:
             mail('buptBathReverse', f'{r.status_code} 请检查cookie', r.text)
             logger.debug(f'{r.status_code} 请检查cookie')
             logger.debug(r.text)
